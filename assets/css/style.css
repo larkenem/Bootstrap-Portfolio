@@ -1,22 +1,46 @@
 body {
-    font-family: 'Lora', serif;
-    font-size: 18px;
-    line-height: 34px;
-    color: rgb(114, 81, 95);
+    font-family: 'IBM Plex Serif', serif;
+    color: rgb(51, 42, 46);
     background: url("../images/background.jpg");
   }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
+ 
+.wrapper {
+  margin: auto;
+  padding: 30px;
+}
+
+#main-section {
+  background: rgb(218, 197, 206);
+  padding: 20px;
+}
+
+#panel-heading, {
+  background: rgb(218, 197, 206);
+  padding: 20px;
+}
+
+.container {
+  background: rgb(218, 197, 206);
+  width: 100%;
+}
+.container-fluid {
+  background: rgb(218, 197, 206);
+}
+
+.panel-heading {
+  background: rgb(218, 197, 206);
+}
+
+.panel-body {
+  background: rgb(218, 197, 206);
+}
+
+
   /* general */
   
-  .container {
+  .wrapper {
     width: 100%;
-    max-width: 960px;
     margin: 0 auto;
-    clear: both;
   }
   
   h1,
@@ -52,7 +76,7 @@ body {
   
   /* header */
   
-  #masthead {
+  /* #masthead {
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -61,9 +85,9 @@ body {
     color: #fff;
     background: #fff;
     border-bottom: 2px solid #ccc;
-  }
+  } */
   
-  #logo {
+  /* #logo {
     float: left;
     width: 250px;
     height: 90px;
@@ -75,14 +99,14 @@ body {
     text-align: center;
     text-decoration: none;
     background: #666;
-  }
+  } */
   
-  nav {
+  /* nav {
     float: right;
     margin-top: 25px;
-  }
+  } */
   
-  nav a {
+  /* nav a {
     display: inline-block;
     padding-left: 15px;
     margin-left: 15px;
@@ -94,11 +118,11 @@ body {
   
   nav a:first-child {
     border-left: 0 none;
-  }
+  } */
   
   /* footer */
   
-  footer {
+  /* footer {
     padding: 30px 0;
     clear: both;
     font-size: 12px;
@@ -115,11 +139,11 @@ body {
     margin-bottom: 15px;
     line-height: 22px;
     border-bottom: 2px solid #eee;
-  }
+  } */
   
   /* main */
   
-  #main-container {
+  /* #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
   }
@@ -132,11 +156,11 @@ body {
     margin: 0 0 40px;
     background: #fff;
     border: 1px solid #ddd;
-  }
+  } */
   
   /* portfolio page */
   
-  .work {
+  /* .work {
     position: relative;
     float: left;
     width: 274px;
@@ -174,11 +198,11 @@ body {
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
-  }
+  } */
   
   /* contact page */
   
-  #contact-form ul {
+  /* #contact-form ul {
     margin-bottom: 20px;
   }
   
@@ -214,4 +238,4 @@ body {
     cursor: pointer;
     background: rgb(114, 81, 95);
     border: 0 none;
-  }
+  } */ 
